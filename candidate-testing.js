@@ -1,3 +1,4 @@
+  
 const input = require('readline-sync');
 
 // TODO 2: modify your quiz app to ask 5 questions //
@@ -42,17 +43,3 @@ function runProgram() {
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
-
-// Don't write any code below this line //
-// And don't change these or your program will not run as expected //
-module.exports = {
-  candidateName: candidateName,
-  question: question,
-  correctAnswer: correctAnswer,
-  candidateAnswer: candidateAnswer,
-  questions: questions,
-  correctAnswers: correctAnswers,
-  candidateAnswers: candidateAnswers,
-  gradeQuiz: gradeQuiz,
-  runProgram: runProgram
-};
